@@ -1,0 +1,12 @@
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/redis_db
+    username: sa
+    password: password
+  jpa:
+    hibernate.ddl-auto: create
+    show-sql: true
